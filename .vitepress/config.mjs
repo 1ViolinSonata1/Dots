@@ -6,7 +6,7 @@ export default defineConfig({
     title: "Vs34f的文档网站",
     description: "A VitePress Site",
     themeConfig: {
-        base: "/Dots/",
+        base: "/Docs_Demo/",
         outlineTitle: "目录",
         head: [["link", { rel: "icon", href: "/文档.svg" }]],
         outline: "deep",
