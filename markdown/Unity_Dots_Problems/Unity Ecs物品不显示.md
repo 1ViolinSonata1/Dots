@@ -22,11 +22,12 @@ Unity Ecs运行时游戏对象不显示或位置信息不进行更新的问题
 
 在ISystem中引用EntityCommandBuffer加上uing,以确保在正确的作用域释放或者调用Dispose()。
 
-```
-using var Ecb = new EntityCommandBuffer(Allocator.Temp);
+```csharp
+using var ecb = new EntityCommandBuffer(Allocator.Temp);
+
 ```
 或者
-```
+```csharp
 var Ecb = new EntityCommandBuffer(Allocator.Temp);
 Ecb.Dispose();
 ```
