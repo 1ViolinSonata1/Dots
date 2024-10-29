@@ -1,12 +1,11 @@
 import {defineConfig} from 'vitepress'
 
 export default defineConfig({
-    base:"Dots",
+    base:"/Dots/",
     head:[["link",{rel:"icon",href:"/Dots/logo.svg"}]],
     title: "Vs34f的文档网站",
     description: "A VitePress Site",
     themeConfig: {
-        base: "/Dots/",
         outlineTitle: "目录",
         head: [["link", { rel: "icon", href: "/文档.svg" }]],
         outline: "deep",
