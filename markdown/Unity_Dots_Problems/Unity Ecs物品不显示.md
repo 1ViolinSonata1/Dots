@@ -9,18 +9,18 @@ Unity Ecs运行时游戏对象不显示或位置信息不进行更新的问题
 
 **解决方法**
 
-在首选项中的Entities下的Baking中，选择Scene View Mode 为Runtime data即可解决。
+在`首选项中`的`Entities`下的`Baking`中，选择`Scene View Mode`为`Runtime data`即可解决。
 
 ![图片描述](/image/Entities_Baker.png)
 
 
 ## 因为内存问题导致无法正常加载
 
-在ISystem中请求EntityCommandBuffer时没有正确释放也会导致无法正常加载物体
+在`ISystem`中请求`EntityCommandBuffer`时没有正确释放也会导致无法正常加载物体
 
 **解决方法**
 
-在ISystem中引用EntityCommandBuffer加上uing,以确保在正确的作用域释放或者调用Dispose()。
+在`ISystem`中引用`EntityCommandBuffer`加上`uing`,以确保在正确的作用域释放或者调用`Dispose()`。
 
 ```csharp
 using var ecb = new EntityCommandBuffer(Allocator.Temp);
