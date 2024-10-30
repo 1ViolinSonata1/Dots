@@ -18,7 +18,7 @@ export default defineConfig({
             {
                 text: "Unity Ecs教程",
                 items: [{
-                    text: "Unity Ecs物品无法显示更新", link: "/markdown/Unity_Dots_Problems/Unity Ecs物品不显示.md",
+                    text: "Unity Ecs物品无法显示更新", link: "/markdown/Unity_Dots_Problems/Unity Core package.md",
                 }]
             },
             {
