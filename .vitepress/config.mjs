@@ -16,9 +16,9 @@ export default defineConfig({
         ],
         sidebar: [
             {
-                text: "Unity Ecs教程",
+                text: "Unity Dots教程",
                 items: [{
-                    text: "Unity Ecs物品无法显示更新", link: "/markdown/Unity_Dots_Problems/Unity Core package.md",
+                    text: "Unity Dots核心包", link: "/markdown/Unity_Dots_Learning/Unity Core package.md",
                 }]
             },
             {
