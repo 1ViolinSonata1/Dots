@@ -1,6 +1,6 @@
 # Dots是什么？
 
-## Data-OrientedTechnology Stack(面向数据的技术栈)
+## Data Oriented Technology Stack(面向数据的技术栈)
 
 是由Unity提供的一系列游戏相关功能相关的额外包和相关工具
 是Unity面向数据设计与编程的一整套技术解决方案
@@ -47,9 +47,9 @@ Components也只是数据片段的集合,他们都有对应的System代码单元
 他提供了常见的集合类型，这些类型的内存分配属于非托管类型。
 可以在Burst编译代码中的Ijob system中使用,并且这些集合类型支持安全检查
 
-***
 
-##额外包
+
+## 额外包
 
 - Entityes Graphics
 一套支持Urp和Hdrp的Entity的渲染解决方案,主要是为了优化Cpu性能而设计的。
@@ -63,7 +63,7 @@ Netcode for Entityes是UnityDots的一部分,他提供了网络多人连线的�
   
 - Physics
   - 默认Unity Physics包，他是一个无状态的确定性物体库,比较适合多人网络游戏。
-  - 详细[Unity官方Physics文档](https://docs.unity3d.com/Packages/com.unity.physics@1.0/manual/index.html)
+  - 详细[Unity 官方Physics文档](https://docs.unity3d.com/Packages/com.unity.physics@1.0/manual/index.html)
   
 ## 后言
 
@@ -83,6 +83,6 @@ Netcode for Entityes是UnityDots的一部分,他提供了网络多人连线的�
 - OpenCL——Open Computing Language
 - MPI/OpenMPI——Message passing Interface
  
->**OOD--/>DOD**
+>**OOD-->DOD**
 
 >用Dots编写出的程序可以充分利用现代Cou多核并行设计
