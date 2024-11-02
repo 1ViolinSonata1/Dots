@@ -55,7 +55,7 @@ Entity是替换在非托管工作模式下的GameObject,他相比于GameOjbect�
   - 一套支持`Urp`和`Hdrp`的`Entity`的渲染解决方案,主要是为了优化`Cpu`性能而设计的。
   - `Entityes Graphics`是从Dots把数据送到Gpu上的一个path，而是比传统基于C++代码更快的data path
   - `Entityes Graphics`主要包含两部分内容。一个是`Data PersistentModel`数据上传，一个是`Persistent Batches`组织`Batch`。
-  - 详细请看 [深入理解Entitiyes Graohics](https://developer.unity.cn/projects/648949b2edbc2a0b29931365)
+  - 详细请看 [深入理解Entitiyes Graphics](https://developer.unity.cn/projects/648949b2edbc2a0b29931365)
 
 ### 2.Netcode 
   - `Netcode for Entityes`是UnityDots的一部分,他提供了网络多人连线的服务器功能。
