@@ -11,7 +11,7 @@ Unity Ecs运行时游戏对象不显示或位置信息不进行更新的问题
 
 在`首选项中`的`Entities`下的`Baking`中，选择`Scene View Mode`为`Runtime data`即可解决。
 
-![图片描述](/image/Entities_Baker.png)
+![Unity设置](/image/Entities_Baker.png)
 
 
 ## 因为内存问题导致无法正常加载

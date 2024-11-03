@@ -12,9 +12,24 @@ export default defineConfig({
         logo: "/文档.svg",
         nav: [
             {text: '首页', link: '/'},
-            {text: 'Unity Dots', link: '/markdown/Unity_Dots_Learning/Unity Core package.md'},
+            {
+                text: 'Unity', items: [
+                    {text: "Unity 教程", link: "/markdown/Unity_教程/Class与Struct的区别.md"},
+                    {text: "Unity Dots教程", link: "/markdown/Unity_Dots_Learning/Unity Core package.md"},
+                    {text: "Unity Ecs问题", link: "/markdown/Unity_Dots_Problems/Unity Ecs物品不显示.md"}
+
+                ]
+
+
+            },
         ],
         sidebar: [
+            {
+                text: "Unity 教程",
+                items: [{
+                    text: "C# Class与Sturt的区别", link: "/markdown/Unity_教程/Class与Struct的区别.md",
+                }]
+            },
             {
                 text: "Unity Dots教程",
                 items: [{
@@ -25,7 +40,10 @@ export default defineConfig({
                 text: "Unity Ecs问题",
                 items: [
                     {text: "Unity Ecs物品无法显示更新", link: "/markdown/Unity_Dots_Problems/Unity Ecs物品不显示.md"},
-                    {text: "Unity Ecs和IJob句柄冲突", link: "/markdown/Unity_Dots_Problems/Unity Ecs 和 IJob的Execute句柄问题.md"},
+                    {
+                        text: "Unity Ecs和IJob句柄冲突",
+                        link: "/markdown/Unity_Dots_Problems/Unity Ecs 和 IJob的Execute句柄问题.md"
+                    },
                 ]
             },
 
