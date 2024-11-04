@@ -60,9 +60,9 @@
 > 设置常规组件值不是一种结构性更改。
 
 ## 五.不会造成结构改变的情况
-### 1. SetComponent :修改已有组件的值。
-### 2. SetComponentEnabled:启用或禁用IEnableableComponent 组件。
-### 3. GetComponent:读取组件数据。
+### 1. `SetComponent` :修改已有组件的值。
+### 2. `SetComponentEnabled`:启用或禁用`IEnableableComponent` 组件。
+### 3. `GetComponent`:读取组件数据。
 
 ## 六.避免频繁`Structural Changes`的最佳实践
 
