@@ -2,7 +2,7 @@
 
 Unity Ecs运行时游戏对象不显示或位置信息不进行更新的问题
 
-## 在首选项中的Entities的Baking没有正确设置加载模式
+## 在首选项中的`Entities`的`Baking`没有正确设置加载模式
 
 在Unity Ecs运行项目时,可能会遇到在Game视窗的可以正常加载，但是Scene视窗中看不到任何游戏对象的情况
 

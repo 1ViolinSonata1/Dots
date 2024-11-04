@@ -34,6 +34,8 @@ export default defineConfig({
                 text: "Unity Dots教程",
                 items: [{
                     text: "Unity Dots核心包", link: "/markdown/Unity_Dots_Learning/Unity Core package.md",
+                },{
+                     text: "Unity Dots 结构变化", link: "/markdown/Unity_Dots_Learning/Unity Structural Changes.md",
                 }]
             },
             {

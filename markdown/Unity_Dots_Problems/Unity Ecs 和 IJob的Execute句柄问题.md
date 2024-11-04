@@ -3,7 +3,7 @@
 在Unity Dots中,使用`IJobEntity`和`IAspect`进行并行计算可能会出现句柄冲突问题。
 以下是常见冲突的原因和对应的解决方法。
   
-## 1.Execute()中避免同时`ref`和`IAspect`
+## 一.Execute()中避免同时`ref`和`IAspect`
 - **问题**:在`IJobeEntity`的`Execute`方法中同时使用`IAspect`和`ref`参数使用时,会导致冲突。
 
 - **示例**
@@ -17,7 +17,7 @@ public void Execute(MyAspect aspect,ref LocalTransfrom localtransfrom){
 
 - **解决方法**:在作业中仅使用`IAspect`或`ref`参数，不要同时使用两者。
 
-## 2.对同一组件的数据进行多次访问
+## 二.对同一组件的数据进行多次访问
 
 - **问题**：多个`ref` 参数试图访问同一个数据源会导致冲突。
 
@@ -33,7 +33,7 @@ localtransfrom.Position +=1;
 
 - **解决方法**:对每个组件数据进行唯一引用,避免在`Execute`中多次引用会修改冲突数据的组件。
 
-## 3.使用EntityCommandBuffer并行写入
+## 三.使用EntityCommandBuffer并行写入
 
 - **问题**:并行写入时`EntityCommandBuffer`不支持多线程写入相同实体,可能导致冲突。
 
@@ -99,7 +99,7 @@ public partial struct EcbChuckJob : IJobEntity
 }
 ```
 
-## 4.使用非线程安全的数据结构
+## 四.使用非线程安全的数据结构
 - **问题**:在并行作业中使用非线程安全的容器会引起冲突
 
 - **示例**
@@ -118,7 +118,7 @@ public partial struct EcbChuckJob : IJobEntity
 
 - **解决方法**:在并行作业中标记需要共享的容器为`[ReadOnly]`,或者用`BlobAssetReference<NativeArray<float3>>`用于存储和共享不可变的数据。
 
-## 5.System更新顺序不明确
+## 五.`System`更新顺序不明确
 - **问题**:多个系统在同一帧写入相同组件数据,导致写入顺序不明确。
 
 - **示例**
@@ -144,7 +144,7 @@ public partial struct ISystemB : ISystem{
 }
 ```
 
-## 6.在Execute中使用复杂逻辑
+## 六.在`Execute`中使用复杂逻辑
 - **问题**:在作业中使用复杂逻辑可能导致句柄冲突。
 
 - **示例**
