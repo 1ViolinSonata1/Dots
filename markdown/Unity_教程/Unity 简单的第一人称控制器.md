@@ -32,7 +32,7 @@ void Update(){
    cc.Move(moveDistance*moveSpeed*Time.deltaTime);
  
    cameraRotateY -=mouseY;
-   cameraRotateY =  Mathf.Clamp(cameraRotateY,-75,75);
+   cameraRotateY = Mathf.Clamp(cameraRotateY,-75,75);
    playerCamera.LocalRotation = Quaternion.Euler(cameraRotateY, 0, 0);
    transfrom.Rotate(Vector3.up*mouseX)
 }
