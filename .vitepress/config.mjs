@@ -28,6 +28,9 @@ export default defineConfig({
                 text: "Unity 教程",
                 items: [{
                     text: "C# Class与Sturt的区别", link: "/markdown/Unity_教程/Class与Struct的区别.md",
+                },
+                {
+                    text: "Unity 简单的人物控制器", link: "/markdown/Unity_教程/Unity 简单的第一人称控制器.md",
                 }]
             },
             {
