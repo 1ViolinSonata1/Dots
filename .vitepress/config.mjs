@@ -31,7 +31,10 @@ export default defineConfig({
                 },
                 {
                     text: "Unity 简单的人物控制器", link: "/markdown/Unity_教程/Unity 简单的第一人称控制器.md",
-                }]
+                },
+                {
+                    text: "Unity 摄像机常用内置方法", link: "/markdown/Unity_教程/Unity Camera常用的内置方法.md",
+                },]
             },
             {
                 text: "Unity Dots教程",
