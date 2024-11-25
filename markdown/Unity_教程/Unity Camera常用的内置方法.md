@@ -114,7 +114,7 @@ if (GeometryUtility.TestPlanesAABB(planes, target.GetComponent<Collider>().bound
 `Renderer.isVisible` 会检查物体的渲染器是否被当前的摄像机视野所覆盖.
 ```csharp
 if (target.GetComponent<Renderer>().isVisible) {
-    // 物体在摄像机视野内
+    // 物体Renderer是否打开
 }
 ```
 ## 总结
