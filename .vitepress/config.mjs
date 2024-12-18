@@ -37,6 +37,9 @@ export default defineConfig({
                 },
                 {
                     text: "Unity 摄像机常用内置方法", link: "/markdown/Unity_教程/Unity Camera常用的内置方法.md",
+                },
+                    {
+                    text: "Unity List洗牌算法", link: "/markdown/Unity_教程/Unity List洗牌函数实现.md",
                 },]
             },
             {
