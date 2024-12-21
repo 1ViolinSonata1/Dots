@@ -28,7 +28,19 @@ void Shuffle<T>(List<T> list)
     }
 }
 ```
-  
+- **元组解构赋值语法**
+> 需C#7.0+
+```CSharp
+    void Shuffle<T>(List<T> list)
+    {
+        for (int i = list.Count - 1; i > 0; i--)
+        {
+            int rand = Random.Range(0, i+1);
+            (list[i], list[rand]) = (list[rand], list[i]);
+        }
+    }
+```  
+
 - **总结**: 在普通应用中，它是打乱顺序的首选方法；在高安全性场景中，可以结合更好的随机数生成器来满足要求。
 
 ### 2. 使用 `LINQ` 的 `OrderBy` 打乱顺序
