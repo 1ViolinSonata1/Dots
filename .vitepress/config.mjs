@@ -19,10 +19,13 @@ export default defineConfig({
                     {text: "Unity Ecs问题", link: "/markdown/Unity_Dots_Problems/Unity Ecs物品不显示.md"}
 
                 ]
-
-
-            },
+            },{
+                text: ' Learning', items: [
+                    {text: "MySql", link: "/markdown/Test/Mysql.md"},
+                ]
+            }
         ],
+
         sidebar: [
             {
                 text: "Unity 教程",
@@ -57,6 +60,15 @@ export default defineConfig({
                     {
                         text: "Unity Ecs和IJob句柄冲突",
                         link: "/markdown/Unity_Dots_Problems/Unity Ecs 和 IJob的Execute句柄问题.md"
+                    },
+                ]
+            },
+            {
+                text: "Learning",
+                items: [
+                    {
+                        text: "Mysql",
+                        link: "/markdown/Test/Mysql.md"
                     },
                 ]
             },
