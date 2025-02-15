@@ -19,39 +19,39 @@ export default defineConfig({
                     {text: "Unity Ecs问题", link: "/markdown/Unity_Dots_Problems/Unity Ecs物品不显示.md"}
 
                 ]
-            },{
+            }, {
                 text: ' Learning', items: [
                     {text: "MySql", link: "/markdown/Test/Mysql.md"},
                 ]
             }
         ],
 
-        sidebar: [    {
-                    text: "C# 推荐命名规范", link: "/markdown/Unity_教程/官方命名规范.md",
-                },
+        sidebar: [{
+            text: "C# 推荐命名规范", link: "/markdown/Unity_教程/官方命名规范.md",
+        },
             {
-                    text: "C# Class与Sturt的区别", link: "/markdown/Unity_教程/Class与Struct的区别.md",
-                },
+                text: "C# Class与Sturt的区别", link: "/markdown/Unity_教程/Class与Struct的区别.md",
+            },
 
-                {
-                    text: "Unity 简单的人物控制器", link: "/markdown/Unity_教程/Unity 简单的第一人称控制器.md",
-                },
-                     {
-                    text: "Unity 简单的第三人称控制器", link: "/markdown/Unity_教程/Unity 简单的第三人称控制器.md",
-                },
-                {
-                    text: "Unity 摄像机常用内置方法", link: "/markdown/Unity_教程/Unity Camera常用的内置方法.md",
-                },
-                    {
-                    text: "Unity List洗牌算法", link: "/markdown/Unity_教程/Unity List洗牌函数实现.md",
+            {
+                text: "Unity 简单的人物控制器", link: "/markdown/Unity_教程/Unity 简单的第一人称控制器.md",
+            },
+            {
+                text: "Unity 简单的第三人称控制器", link: "/markdown/Unity_教程/Unity 简单的第三人称控制器.md",
+            },
+            {
+                text: "Unity 摄像机常用内置方法", link: "/markdown/Unity_教程/Unity Camera常用的内置方法.md",
+            },
+            {
+                text: "Unity List洗牌算法", link: "/markdown/Unity_教程/Unity List洗牌函数实现.md",
 
             },
             {
                 text: "Unity Dots教程",
                 items: [{
                     text: "Unity Dots核心包", link: "/markdown/Unity_Dots_Learning/Unity Core package.md",
-                },{
-                     text: "Unity Dots 结构变化", link: "/markdown/Unity_Dots_Learning/Unity Structural Changes.md",
+                }, {
+                    text: "Unity Dots 结构变化", link: "/markdown/Unity_Dots_Learning/Unity Structural Changes.md",
                 }]
             },
             {
