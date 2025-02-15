@@ -27,7 +27,7 @@ export default defineConfig({
         ],
 
         sidebar: [{
-            text: "C# 推荐命名规范", link: "/markdown/Unity_教程/官方命名规范.md",
+            text: "C# 官方命名规范", link: "/markdown/Unity_教程/官方命名规范.md",
         },
             {
                 text: "C# Class与Sturt的区别", link: "/markdown/Unity_教程/Class与Struct的区别.md",
