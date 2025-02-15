@@ -14,7 +14,7 @@ export default defineConfig({
             {text: '首页', link: '/'},
             {
                 text: 'Unity', items: [
-                    {text: "Unity 教程", link: "/markdown/Unity_教程/Class与Struct的区别.md"},
+                    {text: "Unity 教程", link: "/markdown/Unity_教程/官方命名规范.md"},
                     {text: "Unity Dots教程", link: "/markdown/Unity_Dots_Learning/Unity Core package.md"},
                     {text: "Unity Ecs问题", link: "/markdown/Unity_Dots_Problems/Unity Ecs物品不显示.md"}
 
@@ -26,12 +26,13 @@ export default defineConfig({
             }
         ],
 
-        sidebar: [
+        sidebar: [    {
+                    text: "C# 官方命名规范", link: "/markdown/Unity_教程/官方命名规范.md",
+                },
             {
-                text: "Unity 教程",
-                items: [{
                     text: "C# Class与Sturt的区别", link: "/markdown/Unity_教程/Class与Struct的区别.md",
                 },
+
                 {
                     text: "Unity 简单的人物控制器", link: "/markdown/Unity_教程/Unity 简单的第一人称控制器.md",
                 },
@@ -43,7 +44,7 @@ export default defineConfig({
                 },
                     {
                     text: "Unity List洗牌算法", link: "/markdown/Unity_教程/Unity List洗牌函数实现.md",
-                },]
+
             },
             {
                 text: "Unity Dots教程",
